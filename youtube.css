@@ -174,10 +174,15 @@ a{
   color: inherit;
 }
 .youtube-videos{
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 30px;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+  width: 100px; */
 
 }
 @media (max-width: 750px){
@@ -313,5 +318,8 @@ position: absolute;
 }
 .title{
   height: 40px;
+}
+.video-details{
+  width: 23.2%;
 }
 
